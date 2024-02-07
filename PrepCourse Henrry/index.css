@@ -1,0 +1,241 @@
+body {
+
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('tu-imagen-de-fondo.jpg');
+    background-size: cover;
+}
+
+/* Resto de tu código CSS... */
+
+
+body {
+    min-height: 400vh;
+    margin: 0;
+    background-color: #9aca7e; /* Cambia este valor al color deseado */
+}
+
+/* Resto de tu código CSS... */
+
+
+body {
+    min-height: 400vh;
+
+    margin: 0; /* Asegúrate de que no haya márgenes predeterminados */
+  }
+
+  article {
+    position: relative;
+    top: 50%; /* Ajusta según sea necesario */
+    transform: translateY(-50%);
+  }
+  body {
+    margin-bottom: 50px; /* Ajusta según sea necesario */
+  }
+    
+
+#videofondo{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+#logop{
+    position: relative;
+    left: 15px;
+    height: 50%;
+    margin-top: 15px;
+}
+
+#Grovertex{
+    position: relative;
+    height: 100%;
+    left: 25px;
+    top: -6px;
+}
+
+#logop {
+    position: relative;
+    left: 15px;
+    height: 50%;
+    margin-top: 15px;
+}
+
+#Grovertex {
+    position: relative;
+    height: 100%;
+    left: 25px;
+    top: -6px;
+}
+
+
+  
+
+#OrdenarYa{
+    border-radius: .25rem;
+    position: absolute;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    height: 40px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg,#e24949,#99d68d);
+    border: 0 solid;
+    overflow: hidden;
+    left: 15%;
+    top: 180%;
+  }
+
+#OrdenarYa:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .input {
+    background-color: #212121;
+    max-width: 190px;
+    height: 40px;
+    top: -35px;
+    position: relative;
+    left: 86%;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input:focus {
+    color: rgb(255, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(255, 123, 90);
+    box-shadow: -3px -3px 15px rgb(36, 161, 19);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+
+
+#Titulo{
+    font-size: 75px;
+    margin: 0;
+    position: relative;
+    left: 15%;
+    top: 300px;
+    color: rgb(255, 255, 255);
+}
+
+#SegunT{
+    color: rgb(255, 0, 0);
+    font-size: 75px;
+    margin: 0;
+    top: 183px;
+    position: relative;
+    left: 23%;
+}
+
+#textosubtitulo{
+    position: relative;
+    left: 16%;
+    top: 330px;
+}
+
+#Ordenar{
+    position: relative;
+    left: 10%;
+    height: 40px;
+    top: -500em;
+    background-color: rgb(129, 185, 187);
+}
+
+#PrimerCheft{
+
+    position: absolute;
+    z-index: inherit;
+    left: 60%;
+    top: 262px;
+    height: 160%;
+
+}
+
+/* aqui estan los botones */
+
+button {
+    position: relative;
+    left: 20%;
+    top: 13px;
+    display: inline-block;
+    margin-right: 160px; /* Ajusta el margen derecho según sea necesario */
+    border-radius: 5px;
+    background-color: #e24949;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+}
+
+button:after {
+    content: " ";
+    display: flex;
+    width: 0%;
+    height: 100%;
+    background: #589237;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+}
+
+button:hover::after {
+    right: auto;
+    display: flex;
+    left: 0;
+    width: 100%;
+}
+
+button span {
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover span {
+    color: #34fc0c;
+    animation: scaleUp 0.3s ease-in-out;
+    display: flex;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

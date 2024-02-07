@@ -1,0 +1,118 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding and margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+figure,
+figcaption,
+blockquote,
+q,
+pre,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul and ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  line-height: 1.6;
+}
+
+/* Remove text-decoration from anchor elements */
+a {
+  text-decoration: none;
+}
+
+/* Make images fluid */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive media */
+iframe {
+  display: block;
+  width: 100%;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Reset form styles */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+/* Remove the inheritance of text transform in select elements */
+select {
+  text-transform: none;
+}
+
+/* Reset some default values */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* Prevent Firefox from displaying a 1px border around table cells */
+td {
+  border: 0;
+}
+
+/* Style reset for modern browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
